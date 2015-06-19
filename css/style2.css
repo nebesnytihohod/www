@@ -1,0 +1,118 @@
+body {background: silver url("../img/background.png") repeat fixed top right}
+table#maket { /* оформленние для макета страницы */
+	height: 100%;
+	width: 100%;
+}
+/*оформление меню - начало*/
+ul.menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 200px;
+}
+ul.menu > li {
+	border-left: 10px solid #666;
+    border-bottom: 1px solid #666;
+}
+ul.menu > li > a {
+	background-color: #949494;
+    color: #fff;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border-left: 5px solid #33ADFF;
+    display: block;
+}
+/*оформление меню - конец*/
+li.current_menu { /*выделение текущего пункта меню*/
+	font: Courier, monospace;
+	font-size: 150%;
+	font-weight: 800%;
+	text-align: center;
+}
+.caption {
+	font: 24pt Garamond, serif;
+	font-weight: bold;
+	color: purple;
+	text-decoration: none;
+	padding-bottom: 10px;
+	border-bottom: 9px groove orange;
+}
+.annotation {
+	background-color: olive;
+	width: 500px;
+	height: 500px;
+	display: block;
+}
+a:hover {
+	text-decoration: none;
+    color: #fff;
+    background: #e24486;
+}
+.comm:hover {
+	text-decoration: none;
+    color: #fff;
+    background: #ff0000;
+}
+div.article:first-letter {
+	font-family: Garamond, Times, serif;
+    font-size: 200%;
+    color: red;
+}
+.catalog-l1 {
+	list-style: outside url("../source/list_32.png");
+}
+.catalog-l2 {
+	list-style: outside url("../source/list_definition.png");
+}
+.new:after {
+	color: #fff;
+    background: #ff0000;
+    width: 29px;
+    content: " new!";
+}
+body.back {
+	background-color: silver;
+	background-image: url("../img/texture.png");
+	background-position: center;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+.thumb {
+	border-width: 5px;
+	border-color: blue;
+	border-style: solid;
+	/* padding: 10px; */
+}
+.thumb:hover {border-color: transparent;}
+.field {
+	width: 15em;
+	text-transform: capitalize;
+}
+/*.field-name {
+	width: 15em;
+}*/
+.email {
+	width: 30em;
+	
+}
+.password {
+	width: 30em;
+	
+}
+.email:focus { /* оформление при получении фокуса */
+	color: purple;
+	background-color: olive;
+    /*background: #ffe;  Цвет фона */
+    border: 3px solid #29B0D9; /* Параметры рамки */
+}
+.clickyes:active { /* оформление при нажатии на кнопку */
+	background-color: green;
+}
+.clickno:active { /* оформление при нажатии на кнопку */
+	background-color: red;
+}
+#psite {width: 50em;}
+table#reg td#a {text-align: right;}
+#a:active {}
+#c {text-align: center;}

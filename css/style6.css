@@ -1,0 +1,114 @@
+.block {
+	border: 1px black solid;
+	background-color: silver;
+}
+#first {
+	height: 300px;
+	width: 300px;
+	float: left;
+}
+#lt {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	background-color: #008000;
+	height: 150px;
+	width: 150px;
+}
+#lb {
+	position: relative;
+	left: 150px;
+	top: -150px;
+	background-color: #ffffff;
+	height: 150px;
+	width: 150px;
+}
+#rt {
+	position: relative;
+	left: 0px;
+	top: -150px;
+	background-color: #000000;
+	height: 150px;
+	width: 150px;
+}
+#rb {
+	position: relative;
+	left: 150px;
+	top: -300px;
+	background-color: #800000;
+	height: 150px;
+	width: 150px;
+}
+#second {
+	height: 220px;
+	width: 520px;
+	margin-left: 20px;
+	float: left;
+	padding: 40px;
+}
+#int {
+	height: 220px;
+	width: 520px;
+	background-color: #ff0000;
+}
+#b1, #b2, #b3 {
+	height: 200px;
+	width: 200px;
+	background-color: #0000ff;
+	position: absolute;
+}
+#b1 {
+	left: 225px;
+	top: 225px;
+	z-index: -1;
+}
+#b2 {
+	left: 445px;
+	top: 225px;
+}
+#b3 {
+	left: 665px;
+	top: 225px;
+	z-index: -1;
+}
+#block_menu { /*установка и оформление внешнего блока для расположения в нем меню*/
+	clear: both;
+	position: relative;
+	top: 200px;
+	width: 600px;
+}
+.menu { /*оформление списка меню*/
+	margin: 0px;
+	padding: 5px 15px; /*поля вокруг текста меню*/
+	list-style-type: none;
+}
+.item { /*вытягивание списка меню в горизонтальную линию*/
+	display: inline-block;
+}
+.item div > a { /*оформление текста меню*/
+	/*padding: 0px;*/
+	font: bold 11pt serif;
+	color: #ffffff;
+}
+#cell_menu { /*оформление блока пункта меню*/
+	border-width: 1px;
+	border-color: transparent; /*прозрачная граница чтобы при наведении курсора не прыгало ничего*/
+	width: 100px;
+	height: 100px;
+}
+#text_menu { /*оформление блока с текстом меню*/
+	background-color: #800000;
+	text-align: center;
+	padding: 5px;
+}
+.pic { /*оформление блока с картинкой*/
+	padding: 10px;
+	vertical-align: middle;
+	text-align: center;
+}
+div#cell_menu:hover { border: 1px #000000 solid; } /*рамка при наведении на пункт меню*/
+div#cell_menu:hover > div#text_menu { background-color: #ffff00; } /*подсветка блока с текстом меню при наведении*/
+div#cell_menu:hover > div a { /*изменение шрифта текста меню при наведении*/
+	color: #000000;
+	font: bold 11pt serif;
+}

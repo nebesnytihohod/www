@@ -1,0 +1,156 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>Регистрация</title>
+	<meta content="text/html; charset=Windows-1251" http-equiv="content-type">
+	<!-- Первый вариант таблицы стилей -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/style.css" /> -->
+	<!-- Второй вариант таблицы стилей -->
+	<link rel="stylesheet" type="text/css" href="css/style2.css" />
+</head>
+<body>
+<!-- Макет страницы в виде таблицы -->
+	<table id="maket" align="center">
+		<tr> <!--строка для шапки страницы -->
+			<td width="100px">&nbsp;</td>
+			<td colspan="2" background="img/header.jpg" hight="200" width="850" align="center">
+				<h1>Регистрация</h1>
+			</td>
+			<td width="100px">&nbsp;</td>
+		</tr>
+		<tr> <!-- строка для контента -->
+			<td></td>
+			<td width="250" valign="top"> <!--ячейка для размещения оглавления сайта -->
+				<h1> Что здесь есть </h1>
+				<p>
+					<ul class="menu">
+						<li><a href="page2-article.html">Статьи</a></li>
+						<li><a href="page3-catalog.html">Каталог</a></li>
+						<li><a href="page4-gallery.html">Галерея изображений</a></li>
+						<li class="current_menu"><b>Регистрация</b></li>
+						<li><a href="page6-contact.html">Контакты</a></li><br/>
+						<li><a href="../index.html">на Главную</a></li>
+					</ul>
+				</p>
+			</td>
+			<td> <!--ячейка для размещения содержимого сайта -->
+				<form action="file.php" metod="post" enctype="multipart/form-data">
+					<fieldset>
+						<legend>Регистрационные данные</legend>
+					<table id="reg"> <!--таблица для размещения формы-->
+						<tr>
+							<td id="a"><label for="fam">Фамилия</label></td>
+							<td><input id="fam" class="field" type="text" /></td>
+						</tr>
+						<tr>
+							<td id="a"><label for="nam">Имя</label></td>
+							<td><input id="nam" class="field" type="text" /></td>
+						</tr>
+						<tr>
+							<td id="a"><label for="2nam">Отчество</label></td>
+							<td><input id="2nam" class="field" type="text" /></td>
+						</tr>
+						<tr>
+							<td id="a"><label for="avatar">Вы можете назначить себе картинку</label></td>
+							<td><input id="avatar" type="file" /></td>
+						</tr>
+						<tr>
+							<td id="a"><label for="mail">Адрес электронной почты</label></td>
+							<td><input id="mail" class="email" type="text" /></td>
+						</tr>
+						<tr>
+							<td id="a"><label for="pass">Пароль</label></td>
+							<td><input id="pass" class="password" type="password" /></td>
+						</tr>
+						<tr>
+							<td id="a"><label for="psite">Адрес страницы в соц.сетях или персонального сайта</label></td>
+							<td><input id="psite" type="" value="http://" /></td>
+						</tr>
+						<tr>
+							<td id="a"><label for="gend">Ваш пол</label></td>
+							<td><input id="gend" type="radio" name="sex" value="M" /> мужской или <input id="gend" type="radio" name="sex" value="F" /> женский </td>
+						</tr>
+						<tr>
+							<td id="a"><label for="bd">Дата рождения</label></td>
+							<td><select>
+										<option>1</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+										<option>5</option>
+										<option>6</option>
+										<option>7</option>
+										<option>8</option>
+										<option>9</option>
+										<option>10</option>
+										<option>11</option>
+										<option>12</option>
+										<option>13</option>
+										<option>14</option>
+										<option>15</option>
+										<option>16</option>
+										<option>17</option>
+										<option>18</option>
+										<option>19</option>
+										<option>20</option>
+										<option>21</option>
+										<option>22</option>
+										<option>23</option>
+										<option>24</option>
+										<option>25</option>
+										<option>26</option>
+										<option>27</option>
+										<option>28</option>
+										<option>29</option>
+										<option>30</option>
+										<option>31</option>
+									</select> &laquo;
+									<select>
+										<option>январь</option>
+										<option>февраль</option>
+										<option>март</option>
+										<option>апрель</option>
+										<option>май</option>
+										<option>июнь</option>
+										<option>июль</option>
+										<option>август</option>
+										<option>сентябрь</option>
+										<option>октябрь</option>
+										<option>ноябрь</option>
+										<option>декабрь</option>
+									</select> &raquo;
+									<input type="text" size="4" maxlenght="4" pattern="\d[0-9]{4}" />
+							</td>
+						</tr>
+						<tr>
+							<td id="a"><label for="cus">Какую кухню предпочитаете?</label></td>
+							<td>
+								<input id="cus" type="checkbox" /> русскую
+								<input id="cus" type="checkbox" /> французскую <br/>
+								<input id="cus" type="checkbox" /> итальянскую
+								<input id="cus" type="checkbox" /> испанскую <br/>
+							</td>
+						</tr>
+						<tr>
+							<td id="a"><label for="about">Что Вы о себе думаете?</label></td>
+							<td><textarea id="about" rows="3" placeholder="Коротко о себе"></textarea></td>
+						</tr>
+						<tr>
+							<td id="c" colspan="2"><input class="clickyes" type="submit" value="Готово. Отправить" /> <input class="clickno" type="reset" 	value="Передумал. Сбросить" /></td>
+						</tr>
+					</table>
+					</fieldset>
+				</form>				
+			</td>
+			<td></td>
+		</tr>
+		<tr> <!--строка для подвала страницы -->
+			<td></td>
+			<td colspan="2" bgcolor="#808000" align="right"> <!-- ячейка для размещения копирайта -->
+				<i><b> Все права зачищены. Максим Стасенков 2015 &copy</b></i>
+			</td>
+			<td></td>
+		</tr>
+	</table>
+</body>
+</html>

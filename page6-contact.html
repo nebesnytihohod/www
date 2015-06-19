@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>Контакты</title>
+	<meta content="text/html; charset=Windows-1251" http-equiv="content-type">
+	<!-- Первый вариант таблицы стилей -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/style.css" /> -->
+	<!-- Второй вариант таблицы стилей -->
+	<link rel="stylesheet" type="text/css" href="css/style2.css" />
+</head>
+<body>
+<!-- Макет страницы в виде таблицы -->
+	<table id="maket" align="center">
+		<tr> <!--строка для шапки страницы -->
+			<td width="100px">&nbsp;</td>
+			<td colspan="2" background="img/header.jpg" hight="200" width="850" align="center">
+				<h1>Контакты</h1>
+			</td>
+			<td width="100px">&nbsp;</td>
+		</tr>
+		<tr> <!-- строка для контента -->
+			<td></td>
+			<td width="250" valign="top"> <!--ячейка для размещения оглавления сайта -->
+				<h1> Что здесь есть </h1>
+				<p>
+					<ul class="menu">
+						<li><a href="page2-article.html">Статьи</a></li>
+						<li><a href="page3-catalog.html">Каталог</a></li>
+						<li><a href="page4-gallery.html">Галерея изображений</a></li>
+						<li><a href="page5-registration.html">Регистрация</a></li>
+						<li class="current_menu"><b>Контакты</b></li><br/>
+						<li><a href="../index.html">на Главную</a></li>
+					</ul>
+				</p>
+			</td>
+			<td> <!--ячейка для размещения содержимого сайта -->
+				<h1>Как с нами связаться или найти</h1>
+				<h2>Как добраться</h2>
+				<p>Ищите за горизонтом<br/>
+					Следуйте по <a href="https://maps.yandex.ru/-/CVW6YB20" target="_blank">карте </a>сюда: <a href="https://maps.yandex.ru/-/CVW6YB20" target="_blank"> <img src="https://img-fotki.yandex.ru/get/6736/242612792.16c/0_c2174_73970333_orig" height="100" /></a>
+				</p>
+				<h2>Куда писать</h2>
+				<p>Пишите на деревню дедушке или по электронной почте <a href="mailto:makcct@yandex.ru">makcct@yandex.ru</a></p>
+				<form action="mailto:makcct@yandex.ru" enctype="text/plain">
+					<fieldset>
+						<legend>Форма для обратной связи</legend>
+						Ваше имя <input type="text" /><br/>
+						Ваш адрес, чтобы я мог ответить <input required type="text" /><br/>
+						Напишите в этом поле свое сообщение:<br/>
+						<textarea rows="10" cols="70" placeholder="ваше сообщение"></textarea>
+						<input type="submit" value="Отправить" />
+						<input type="reset" value="Передумал" />
+					</fieldset>
+				</form>
+			</td>
+			<td></td>
+		</tr>
+		<tr> <!--строка для подвала страницы -->
+			<td></td>
+			<td colspan="2" bgcolor="#808000" align="right"> <!-- ячейка для размещения копирайта -->
+				<i><b> Все права зачищены. Максим Стасенков 2015 &copy</b></i>
+			</td>
+			<td></td>
+		</tr>
+	</table>
+</body>
+</html>

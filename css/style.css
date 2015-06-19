@@ -1,0 +1,17 @@
+body {background: silver url("../img/background.png") repeat fixed top right}
+ul.menu {
+	list-style: outside url("../source/ui_menu.png");
+	font: 100% Courier, monospace;
+}
+ul.menu > li {
+	border: 7px outset gray;
+	margin-bottom: 5px;
+	background: silver;
+}
+li.current_menu {
+	list-style: outside url("..//source/menu_item.png");
+	font: Courier, monospace;
+	font-size: 200%;
+	font-weight: 800%;
+	text-align: center;
+}

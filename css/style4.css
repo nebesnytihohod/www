@@ -1,0 +1,84 @@
+/*body {background: silver url("../img/back.png") repeat fixed top right}*/
+body {background: silver;}
+table {
+	background-image: url("../img/back.png");
+	background-color: olive;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	/*border-style: dotted;*/
+	/*border-width: 1px;*/
+	/*border-color: red;*/
+	padding: 0px;
+}
+td {
+	/*border: dotted 1px red;*/
+	border-spacing: 0px;
+	border-collapse: collapse;
+	padding: 0px;
+	margin: 0px;
+}
+/*#header {
+	height: 200px;
+	width: 775px;
+	background-image: url("../img/img.png");
+}*/
+#article {
+	background-color: white;
+}
+#banners {
+	background-color: orange;
+}
+#footer {
+	font-family: "Garamond", serif;
+	font-size: 100%;
+	font-weight: 200%;
+	color: red;
+}
+#cell1-3 {
+	height: 101px;
+	width: 276px;
+	background-image: url("../img/1-3.png");
+}
+#contact {
+	background-image: url("../img/contact.png");
+	height: 60px;
+	width: 276px;
+}
+#photo {
+	background-image: url("../img/photo.png");
+	height: 51px;
+	width: 276px;
+}
+#family {
+	background-image: url("../img/family.png");
+	height: 47px;
+	width: 276px;
+}
+#about {
+	background-image: url("../img/about.png");
+	height: 52px;
+	width: 276px;
+}
+#cell1-1 {
+	background-image: url("../img/1-1.png");
+	height: 10px;
+	width: 276px;
+}
+#cell1-2 {
+	background-image: url("../img/1-2.png");
+	height: 320px;
+	width: 498px;
+}
+.link {
+    width: 276px; /* Ширина слоя */
+    height: 20px; /* Высота слоя */
+}
+.link a {
+    display: block; /* Ссылка как блочный элемент */
+    text-align: center; /* Выравнивание по центру */
+    height: 100%; /* Высота на весь слой */
+}
+.link2 {
+    width: 200px; /* Ширина слоя */
+    height: 30px; /* Высота слоя */
+}

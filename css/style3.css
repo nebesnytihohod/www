@@ -1,0 +1,26 @@
+table#ext {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	border-width: 1px;
+	border-style: dotted;
+	width: 300px;
+	height: 100px;
+	color: red;
+}
+td {
+	border-width: 1px;
+	border-style: dotted;
+	color: blue;
+	width: 100px;
+}
+#internal {
+	width: 170px;
+	height: 60px;
+	border-collapse: collapse;
+	border-width: 1px;
+	border-style: dotted;
+	margin: 10px;
+}
+#td {
+	text-align: center;
+}
